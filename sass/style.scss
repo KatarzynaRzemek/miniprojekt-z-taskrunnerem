@@ -1,0 +1,90 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 20px 0;
+    background-color: transparent;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        text-decoration: none;
+        color: #fed136;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+
+        li a {
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1519638831568-d9897f54ed69');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+
+    h2 {
+        font-size: 36px;
+        font-style: italic;
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 60px;
+        margin: 20px 0;
+    }
+
+    .button {
+        background-color: #fed136;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        border-radius: 5px;
+    }
+}
