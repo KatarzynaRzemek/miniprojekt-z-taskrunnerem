@@ -59,7 +59,7 @@ header {
 }
 
 .hero {
-    background-image: url('https://images.unsplash.com/photo-1519638831568-d9897f54ed69');
+    background-image: url('https://i.postimg.cc/QMYPMBmY/pexels-hiren-lad-329727-3031670.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -86,5 +86,125 @@ header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         border-radius: 5px;
+    }
+}
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        color: black;
+        padding: 5px 0;
+    }
+    .section-subtitle {
+        color:#777;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+
+    .service-wrapper {
+        display: flex;
+        gap: 25px;
+    }
+
+    .service-item {
+        flex: 1;
+    }
+
+    i {
+        border: 3px solid #fed136;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        line-height: 74px;
+        font-size: 36px;
+        color: #fed136;
+        margin-bottom: 20px;
+    }
+
+}
+
+.portfolio {
+    padding: 100px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        color: black;
+        padding: 5px 0;
+    }
+
+    .section-subtitle {
+        color:#777;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+
+    .portfolio-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .portfolio-item {
+        width: calc(33.333% - 14px);
+        background-color: white;
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+    }
+
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: #333;
+        padding: 15px 0 5px 0;
+    }
+
+    p {
+        font-style: italic;
+        padding-bottom: 15px;
+    }
+
+}
+
+footer {
+    padding: 25px 0;
+
+    .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-height: 40%;
+    }
+
+
+    .social-media {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            background-color: #333;
+            color: white;
+            margin: 0 5px;
+            font-size: 16px;
+            text-align: center;
+
+        }
+       
     }
 }
