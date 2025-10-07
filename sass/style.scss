@@ -39,7 +39,7 @@ header {
 
     .logo {
         font-family: 'Kaushan Script', cursive;
-        font-size: 24px;
+        font-size: 30px;
         text-decoration: none;
         color: #fed136;
     }
@@ -54,6 +54,8 @@ header {
             color: white;
             text-transform: uppercase;
             font-weight: bold;
+            font-size: 15px;
+            font-weight: 500;
         }
     }
 }
@@ -69,18 +71,22 @@ header {
     h2 {
         font-size: 36px;
         font-style: italic;
+        margin-bottom: 40px;
+        margin-top: 120px;
+        font-weight: 500;
     }
 
     h1 {
         font-family: 'Montserrat', sans-serif;
         font-size: 60px;
-        margin: 20px 0;
+        margin-top: 40px;
+        margin-bottom: 80px;
     }
 
     .button {
         background-color: #fed136;
         color: white;
-        padding: 15px 30px;
+        padding: 25px 50px;
         text-decoration: none;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
@@ -93,6 +99,7 @@ header {
     padding: 100px 0;
     text-align: center;
 
+
     h3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 36px;
@@ -103,15 +110,18 @@ header {
         color:#777;
         margin-bottom: 20px;
         font-style: italic;
+        margin-bottom: 50px;
     }
 
     .service-wrapper {
         display: flex;
         gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .service-item {
-        flex: 1;
+        width: 30%;
     }
 
     i {
@@ -123,6 +133,16 @@ header {
         font-size: 36px;
         color: #fed136;
         margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 20px;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-style: italic;
     }
 
 }
@@ -143,6 +163,7 @@ header {
         color:#777;
         margin-bottom: 20px;
         font-style: italic;
+        margin-bottom: 60px;
     }
 
     .portfolio-wrapper {
@@ -166,11 +187,12 @@ header {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         color: #333;
-        padding: 15px 0 5px 0;
+        padding: 15px 0 0 0;
     }
 
     p {
         font-style: italic;
+        font-size: 13px;
         padding-bottom: 15px;
     }
 
